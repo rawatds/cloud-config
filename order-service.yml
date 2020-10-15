@@ -3,6 +3,7 @@ microservice:
   paymentservice:
     endpoints:
       endpoint:
-        uri: http://PAYMENT-SERVICE/payments
+        uri: 
+          - http://PAYMENT-SERVICE/payments
 
-paymenturl: http://PAYMENT-SERVICE/payments
+paymenturl: "http://PAYMENT-SERVICE/payments"
